@@ -47,7 +47,7 @@ using namespace std;
 		
 		int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 		int n = sizeof(array) / sizeof(array[0]);
-		int d = 3;	
+		int d = 4;	
 		
 		leftRotate(array, n, d);
 		

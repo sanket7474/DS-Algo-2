@@ -2,6 +2,12 @@
 
 	Move all negative numbers to beginning and positive to end.
 
+	Examples : 
+
+		Input: -12, 11, -13, -5, 6, -7, 5, -3, -6
+		Output: -12 -13 -5 -7 -3 -6 11
+
+	https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/
 */
 
 
@@ -29,7 +35,7 @@ void arrange(int arr[], int n) {
 
 	int main() {
 		
-		int array[] = {-1, -2, -3, -4};
+		int array[] = {3, 4, -3, -4};
 		int size = sizeof(array)/sizeof(array[0]);
 		
 		arrange(array, size);
